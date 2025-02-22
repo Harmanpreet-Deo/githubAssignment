@@ -52,4 +52,12 @@ public class Authenticator {
     public boolean hasAttemptsLeft() {
         return attemptsLeft > 0;
     }
+
+    /**
+     * Returns the number of remaining login attempts.
+     * @return The number of attempts left.
+     */
+    public int getAttemptsLeft() {
+        return attemptsLeft;
+    }
 }

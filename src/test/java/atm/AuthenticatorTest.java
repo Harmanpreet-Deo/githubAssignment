@@ -47,6 +47,7 @@ class AuthenticatorTest {
 
     /**
      * Tests authentication failure after exceeding login attempt limits.
+     * Also tests the method for returning left login attempts.
      */
     @Test
     void testFailedAttemptsLimit() {
@@ -54,5 +55,6 @@ class AuthenticatorTest {
         authenticator.authenticate("1234567", "wrong");
         authenticator.authenticate("1234567", "wrong");
         assertFalse(authenticator.hasAttemptsLeft());
+        assertEquals(0, authenticator.getAttemptsLeft());
     }
 }
