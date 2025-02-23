@@ -86,4 +86,5 @@ git push origin feature-name
 - **Security Updates branch created.**
 - **Balance Feature branch created.**
 - **History Feature branch created.**
+- **ATM Machine branch created.**
 
