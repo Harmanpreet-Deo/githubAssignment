@@ -67,9 +67,9 @@ git push origin feature-name
 
 ## 📜 Contributors
 - **Harman** (Team Lead, Reviewer) - Authenticator (Authenticator.java)
-- **Junyi Yu** (Reviewer) - Security Features (Security.java)
-- **Samuel Power** - Balance Management (Balance.java)
-- **Ishu Kant** - Transaction History (History.java)
+- **Junyi Yu** (Reviewer) - ATM Machine Menu (ATM_Machine.java)
+- **Samuel Power** - Balance Management & Transaction History (Balance.java & History.java)
+- **Ishu Kant** -  Security Features (Security.java)
 
 ---
 
@@ -87,4 +87,5 @@ git push origin feature-name
 - **Balance Feature branch created.**
 - **History Feature branch created.**
 - **ATM Machine branch created.**
+- **Finished**
 
