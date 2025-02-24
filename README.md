@@ -5,11 +5,11 @@ A simple ATM simulation program in Java with **JUnit 5** tests.
 ---
 
 ## 🚀 Features
-- **User Authentication** (`Authenticator.java`) - Secure login system.
+- **User Authentication** (`Authenticator.java`) - PIN verification and account lockout.
 - **ATM Machine Menu** (`ATM_Machine.java`) - Main class which user interacts with.
 - **Balance Management** (`Balance.java`) - Deposit, withdraw, and check balance.
 - **Transaction History** (`History.java`) - Track past transactions.
-- **Security Features** (`Security.java`) - PIN verification and account lockout.
+- **Security Features** (`Security.java`) - Secure login system.
 
 ---
 
